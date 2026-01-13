@@ -1,7 +1,7 @@
 import { useField } from "formik"
 
 
-const CustomCheckBox=({label, ...props})=>{
+const CustomCheckBox=({ ...props})=>{
 
     const [field, meta]= useField(props);
 
